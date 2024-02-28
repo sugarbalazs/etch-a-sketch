@@ -1,5 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .flex-container {
-  margin: 10em auto;
+  margin: 2em auto;
   display: flex;
   flex-wrap: wrap;
   width: 40em;
@@ -14,4 +19,26 @@
   width: 2.5em;
   flex-grow: 0;
   flex-shrink: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
