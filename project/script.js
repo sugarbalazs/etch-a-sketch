@@ -12,12 +12,8 @@ for (let i = 0; i < 16; i++) {
     // Appending the cells
     mainContainer.appendChild(cell);
 
-    cell.addEventListener(
-      "mouseenter",
-      (e) => {
-        e.target.style.color = "black";
-      },
-      false
-    );
+    cell.addEventListener("mouseover", function () {
+      this.style.backgroundColor = "black";
+    });
   }
 }
